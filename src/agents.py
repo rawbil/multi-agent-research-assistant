@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langchain.agents import create_agent
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from tools import tavily, scrape_url
+from .tools import tavily, scrape_url
 
 load_dotenv()
 
